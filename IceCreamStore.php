@@ -23,7 +23,6 @@ $flavor_list = [
     "Ube" => 40,
     "Cheese" => 45,
     "Mango" => 40,
-    "Mais con Yelo" => 42,
     "Buko" => 38,
     "Choco" => 45,
     "Strawberry" => 40,
@@ -73,4 +72,5 @@ $flavor_list = [
 </div>
 
 </body>
+
 </html>
