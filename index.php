@@ -1,4 +1,12 @@
 <?php
+
+/* 
+   MangKenIceCreamStore 
+   Name: Kenaz Brian Yanez
+   Section: WD - 203
+*/
+
+
 $customer_name = "Dear"; //sir pang foreigner base and prices q dito HADHADHAHA (Cold Stone price)
 $scoops = 8;
 $with_wafer = true;
@@ -10,9 +18,12 @@ $flavors = [
     "Dinuguan"=> 40
 ];
 
-include "header.php";
-?>
 
+?>
+<div class="hero">
+        <img src="images/hero.jpg" alt="Mang Ken's Sorbetes Cart">
+</div>
+<?php include "includes/header.php"; ?>
 <h2>Our 7 Classic Flavors</h2>
 <table>
     <tr><th colspan="3">Choose your flavor</th></tr>
@@ -105,11 +116,11 @@ include "header.php";
     <?php
     $stock = 15;
     while($stock > 0){
-        echo "May $stock pa... ";
+        echo "May $stock pa... <br>";
         $stock -= 5;
     }
     echo "Sold out!";
     ?>
 </div>
 
-<?php include "footer.php"; ?>
+<?php include "includes/footer.php"; ?>
