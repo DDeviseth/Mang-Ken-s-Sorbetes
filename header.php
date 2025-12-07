@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mang Ken Sorbetes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container">
@@ -13,11 +13,11 @@
             <?php
             $hour = date("G");
             if ($hour < 12) {
-                echo "Magandang umaga";
+                echo "Magandang umaga to our valued customer!";
             } else if ($hour < 18) {
-                echo "Magandang hapon!";
+                echo "Magandang hapon to our valued customer!";
             } else {
-                echo "Good evening!";
+                echo "Good evening to our valued customer!";
             }
             ?>
         </p>
