@@ -1,31 +1,35 @@
 body {
     margin: 0;
     padding: 0;
-    background: #fff3e1;
+    background: #FFF2EB;      
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.8;
+    background: #e5bf9a;
 }
 
 h1 {
     text-align: center;
     font-size: 55px;
-    color: #f96501;
+    color: #683f3a;             
     margin: 50px 0 20px 0;
+    background-color: #e5bf9a;
 }
 
 .greeting {
     text-align: center;
     font-size: 28px;
-    color: #f96501;
+    color: #683f3a;            
     margin-bottom: 50px;
+    background-color: #e5bf9a;
 }
 
 h2 {
     text-align: center;
     font-size: 40px;
-    color: #c0392b;
+    color: #ec3471;             
     margin: 70px 0 50px 0;
+    background-color: #e5bf9a;
 }
 
 table {
@@ -35,14 +39,14 @@ table {
 }
 
 th {
-    background: #e74c3c;
-    color: white;
+    background: #FFD6BA;       
+    color: #5D4037;            
     padding: 20px;
     font-size: 26px;
 }
 
 td {
-    background: #fef5e7;
+    background: #FFE8CD;        
     padding: 40px;
     text-align: center;
     font-size: 22px;
@@ -52,25 +56,25 @@ td {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 10px solid #e74c3c;
+    border: 10px solid #FFD6BA; 
     margin-bottom: 15px;
 }
 
 .flavor-name {
     font-size: 28px;
     font-weight: bold;
-    color: #8e44ad;
+    color: #E91E63;            
     margin: 10px 0;
 }
 
 .price {
     font-size: 26px;
-    color: #27ae60;
+    color: #D84315;            
     font-weight: bold;
 }
 
 .bayad {
-    background: #ffecb3;
+    background: #FFDCDC;        
     padding: 50px;
     text-align: center;
     margin: 80px 0;
@@ -79,12 +83,12 @@ td {
 
 .big {
     font-size: 60px;
-    color: #c0392b;
+    color: #E91E63;             
     font-weight: bold;
 }
 
 .bulk, .stock {
-    background: #e8f8f5;
+    background: #FFF2EB;        
     padding: 40px;
     text-align: center;
     margin: 70px 0;
@@ -92,10 +96,33 @@ td {
 }
 
 footer {
-    background: #2c3e50;
-    color: white;
+    background: #FFD6BA;        
+    color: #5D4037;
     text-align: center;
     padding: 50px;
     font-size: 22px;
     margin-top: 100px;
+}
+
+.hero {
+    width: 100%;
+    margin: 0 0 40px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-bottom: 8px solid #FFD6BA;
+}
+
+caption {
+    font-size: 18px;
+    color: #ebe7e6;            
+    margin-top: 10px;
+    font-size: xx-large;
+    border: 8px solid #5D4037;
+    background:#5D4037;
 }
